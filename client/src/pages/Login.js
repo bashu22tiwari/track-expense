@@ -34,7 +34,7 @@ const Login = () => {
     <div className="register-page">
         {loading && <Spinner />}
         <Form layout="vertical" onFinish={submitHandler}>
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftallysolutions.com%2Fus%2Faccounting%2Fcogs-vs-expenses%2F&psig=AOvVaw3ajyS93HoJUBMFwHDI3q6t&ust=1703423509913000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNilsZ7RpYMDFQAAAAAdAAAAABAD" alt='My image'/>
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftallysolutions.com%2Fus%2Faccounting%2Fcogs-vs-expenses%2F&psig=AOvVaw3ajyS93HoJUBMFwHDI3q6t&ust=1703423509913000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNilsZ7RpYMDFQAAAAAdAAAAABAD" alt='yashi my name'/>
             <h1>Login Form</h1>
             <Form.Item label="Email" name="email">
                 <Input type="email" />
